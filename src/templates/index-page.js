@@ -2,82 +2,48 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
-import EndorsementForm from '../components/Form'
+//import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import Layout from '../components/Layout'
-import { Modal, ModalHeader, ModalBody, Button } from 'reactstrap';
-//import Features from '../components/Features'
-//import BlogRoll from '../components/BlogRoll'
+//import { Modal, ModalHeader, ModalBody, Button } from 'reactstrap';
+import Features from '../components/Features'
+import BlogRoll from '../components/BlogRoll'
+import HomeVideo from "../img/homevideo-sm.mp4"
 
 export const IndexPageTemplate = ({ image, topimage, title, description, content, contentComponent }) => {
-  const PageContent = contentComponent || Content
-
-  const [modal, setModal] = useState(false);
-  const toggle = () => setModal(!modal);
-
-  const [modalsign, setModalsign] = useState(false);
-  const togglesign = () => setModalsign(!modalsign);
+  
+  
   return (
 
 
-    <div className="center-this">
-      <div className="full-site-image">
+    <div>
+      <div className="video-contain">
+      
+        <video autoPlay="autoplay" muted loop="loop" id="bgvid">
+          <source src={HomeVideo} type="video/mp4" />
+        </video>
+        <div className="video-contain__gradient"></div>
 
-        <PreviewCompatibleImage
-          imageInfo={{
-            image: image.childImageSharp.fluid.src,
-            alt: "this is the alt",
-          }}
-        />
-
-      </div>
-
-      <section className="mystuff inside-lg no-padd">
-        <div>
-          <PreviewCompatibleImage
-            imageInfo={{
-              image: topimage.childImageSharp.fluid.src,
-              alt: "this is the alt",
-            }}
-          />
-          <div className="buttons text-center">
-            <Button color="warning" size="lg" onClick={toggle}>Learn More</Button>
-            <Button color="warning" size="lg" onClick={togglesign}>Sign Up</Button>
+        <div className="flex-vertical callto text-center">
+          <div>
+            <h1>Surrounded by Nature<span>On Sandusky Bay</span></h1>
           </div>
         </div>
+        
+      </div>
+
+      <section className="therest">
+        <div id="reservations" className="inside-md text-center">
+          <div>
+            <p>Arrival Date | Departure Date | # of Adults | # of Children | Promo Code | <a className="button" href="">Check Availability</a></p>
+          </div>
+        </div>
+        <h1 className="title">{title}</h1>
+        <h3 className="subtitle">{description}</h3> 
+          
+          
+               
       </section>
-
-      <Modal isOpen={modal} toggle={toggle} >
-        <ModalHeader toggle={toggle}></ModalHeader>
-        <ModalBody>
-
-          <div className="modal-window">
-            <div className="text-center">
-              <h1 className="title">{title}</h1>
-              <h3 className="subtitle">{description}</h3>
-            </div>
-            <div className="padding-10">
-              <PageContent className="content" content={content} />
-            </div>
-          </div>
-
-        </ModalBody>
-      </Modal>
-
-      <Modal isOpen={modalsign} toggle={togglesign} >
-        <ModalHeader toggle={togglesign}></ModalHeader>
-        <ModalBody>
-
-          <div className="modal-window">
-            <h1 className="title">Endorsement Form</h1>
-            <EndorsementForm />
-          </div>
-
-        </ModalBody>
-      </Modal>
-
     </div>
-
 
   )
 }

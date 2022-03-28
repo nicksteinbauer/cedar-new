@@ -39,6 +39,22 @@ picture {
   }
 }
 
+a.button {
+    
+    display: inline-block;
+    background-color: rgba($color: $cedargreen, $alpha: .5);
+    
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color .3s ease;
+
+}
+a.button:hover {
+    background-color: rgba($color: $cedargreen, $alpha: 1);
+}
+
 .no-padd {
   padding: 0 !important;
 }
@@ -77,6 +93,7 @@ $ob-blue: #0276b2;
 }
 
 .inside-xxs {
+    width: 100%;
   max-width: $screen-xxs;
   padding-left: 20px;
   padding-right: 20px;
@@ -85,6 +102,7 @@ $ob-blue: #0276b2;
 }
 
 .inside-xs {
+    width: 100%;
   max-width: $screen-xs;
   padding-left: 20px;
   padding-right: 20px;
@@ -93,6 +111,7 @@ $ob-blue: #0276b2;
 }
 
 .inside-sm {
+    width: 100%;
   max-width: $screen-sm;
   padding-left: 20px;
   padding-right: 20px;
@@ -101,6 +120,7 @@ $ob-blue: #0276b2;
 }
 
 .inside-md {
+    width: 100%;
   max-width: $screen-md;
   padding-left: 20px;
   padding-right: 20px;
@@ -109,6 +129,7 @@ $ob-blue: #0276b2;
 }
 
 .inside-lg {
+    width: 100%;
   max-width: $screen-lg;
   padding-left: 20px;
   padding-right: 20px;
@@ -117,6 +138,7 @@ $ob-blue: #0276b2;
 }
 
 .inside-xl {
+    width: 100%;
   max-width: $screen-xl;
   padding-left: 20px;
   padding-right: 20px;
@@ -125,6 +147,7 @@ $ob-blue: #0276b2;
 }
 
 .inside-xxl {
+  width: 100%;
   max-width: $screen-xxl;
   padding-left: 20px;
   padding-right: 20px;
@@ -133,6 +156,7 @@ $ob-blue: #0276b2;
 }
 
 .inside-xxxl {
+  width: 100%;
   max-width: $screen-xxxl;
   box-sizing: border-box;
   margin: 0 auto;
@@ -272,9 +296,18 @@ $ob-blue: #0276b2;
   }
 }
 
+.relative {
+    position: relative;
+}
+
 .justify {
   justify-content: space-between;
 }
+
+.flex-end {
+    justify-content: flex-end;
+}
+
 
 .center-vertically {
   display: flex;
