@@ -2,11 +2,12 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
+import Reservations from '../components/Reservations';
 //import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import Layout from '../components/Layout'
 //import { Modal, ModalHeader, ModalBody, Button } from 'reactstrap';
-import Features from '../components/Features'
-import BlogRoll from '../components/BlogRoll'
+//import Features from '../components/Features'
+//import BlogRoll from '../components/BlogRoll'
 import HomeVideo from "../img/homevideo-sm.mp4"
 
 export const IndexPageTemplate = ({ image, topimage, title, description, content, contentComponent }) => {
@@ -32,10 +33,8 @@ export const IndexPageTemplate = ({ image, topimage, title, description, content
       </div>
 
       <section className="therest">
-        <div id="reservations" className="inside-md text-center">
-          <div>
-            <p>Arrival Date | Departure Date | # of Adults | # of Children | Promo Code | <a className="button" href="">Check Availability</a></p>
-          </div>
+        <div id="reservations" className="inside-lg text-center">
+          <Reservations />
         </div>
         <h1 className="title">{title}</h1>
         <h3 className="subtitle">{description}</h3> 

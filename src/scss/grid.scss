@@ -249,6 +249,10 @@ $ob-blue: #0276b2;
     max-width: 33.33%;
   }
 }
+.thirty-five {
+  box-sizing: border-box;
+  flex: 0 0 35%;
+}
 .forty {
   box-sizing: border-box;
   flex: 0 0 40%;
