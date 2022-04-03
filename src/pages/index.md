@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Surround yourself in nature on Sandusky Bay
+title: The Cedar Motel
 image: /img/dont-divide-sandusky-background.jpg
 topimage: /img/the-cedar-motel-main-2022.jpg
-description: The Cedar Motel - Stay on the waterfront in Bay View, Ohio
+description: Stay on the waterfront in Bay View, Ohio
 ---
 Nestled along the shores in the quiet village of Bay View, The Cedar Motel features newly renovated rooms in a relaxed setting and boasts panoramic views of the neighboring calm waters of Sandusky Bay.
 
