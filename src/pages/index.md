@@ -1,26 +1,10 @@
 ---
 templateKey: index-page
-title: Don't Divide Sandusky
+title: Surround yourself in nature on Sandusky Bay
 image: /img/dont-divide-sandusky-background.jpg
-topimage: /img/No-Main-Logo.png
-description: >-
-  Issue 2 is Bad for Sandusky
+topimage: /img/the-cedar-motel-main-2022.jpg
+description: The Cedar Motel - Stay on the waterfront in Bay View, Ohio
 ---
+Nestled along the shores in the quiet village of Bay View, The Cedar Motel features newly renovated rooms in a relaxed setting and boasts panoramic views of the neighboring calm waters of Sandusky Bay.
 
-Issue 2 would unnecessarily change our current cohesive government structure into political fiefdoms.  Our current at-large City government system is working and change simply doesn’t make sense.
-
-In 2020, the Charter Review Committee studied Sandusky’s government structure.
-
-The Committee, made up of a cross-section of residents, business, and civic leaders, invited experts to testify about possible structural changes. The Commission studied and carefully deliberated proposed changes.  The Commission voted 11-2 against structural change. 
-
-A small group of proponents were not happy with that decision and now are working to overturn the informed, thorough and transparent decision-making of the Charter Review Committee. 
-
-Issue 2 would overturn the decisions of a deliberative, open, and transparent process and is driven by certain candidacies for city commission seats. 
-
-Don’t be fooled.  The current structure is working and Sandusky is making great progress. 
-
-Dividing Sandusky into wards would create unnecessary chaos, fiefdoms, and acrimony. 
-
-Sandusky is revitalizing throughout the city, including our neighborhoods, our schools, our roads, housing, and infrastructure.  Keep that progress going by defeating the politically-motivated Issue 2.
-
-Don’t divide Sandusky.  Together, Sandusky is moving forward.  
+Located directly off State Route 2 located in between Sandusky and Port Clinton, The Cedar Motel’s central location within the Lake Erie Shores & Islands makes it the perfect place for travelers looking for a nice night’s rest.
