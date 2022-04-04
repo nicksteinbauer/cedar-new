@@ -84,7 +84,7 @@ export const IndexPageTemplate = ({ image, topimage, title, description, content
 
           <div className='text-center inside-xs'>
             <img className='the-logo' src={logo} alt="Cedar Motel" />
-            <h2>Our Accomodations</h2>
+            <h2>Our Accommodations</h2>
           </div>
           
           <div className='blog-parent'>
