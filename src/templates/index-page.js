@@ -10,7 +10,7 @@ import logo from "../img/CEDAR-LOGO-FINAL.svg";
 
 //import { Modal, ModalHeader, ModalBody, Button } from 'reactstrap';
 //import Features from '../components/Features'
-//import BlogRoll from '../components/BlogRoll'
+import BlogRoll from '../components/BlogRoll'
 import HomeVideo from "../img/homevideo-sm.mp4"
 
 export const IndexPageTemplate = ({ image, topimage, title, description, content, contentComponent }) => {
@@ -87,9 +87,9 @@ export const IndexPageTemplate = ({ image, topimage, title, description, content
             <h2>Our Accomodations</h2>
           </div>
           
-          <div className='inside-xxl'>
+          <div className='blog-parent'>
 
-            
+            <BlogRoll />
 
 
           </div>

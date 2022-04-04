@@ -41,6 +41,10 @@
     left: 0;
   }
 
+  .gatsby-image-wrapper, img {
+      border-radius: 0 !important;
+  }
+
   .therest {
       padding-top: 85vh;
       overflow: hidden;
