@@ -8,6 +8,21 @@
         border-radius: 10px;
         color: #fff;
         padding: 20px;
+        
+        h3 {
+            font-family: $displayText;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        a {
+            transition: color .3s ease;
+        }
+        a:link, a:active, a:visited {
+            color: #fff;
+        }
+        a:hover {
+            color: $cedargreen;
+        }
         p {
             margin: 0;
         }

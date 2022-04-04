@@ -16,11 +16,20 @@ const Footer = class extends React.Component {
     return (
       <footer>
 
-        <div className='footer-inside inside-lg'>
-          <div className='above-footer'>
-
-            <h3>This is the footer</h3>
-
+        <div className='footer-inside inside-lg text-center'>
+          <div className='above-footer flex-md'>
+            <div className='fifty'>
+              <h3>The Cedar Motel</h3>
+              <p>
+                903 E Bayview Dr Sandusky, Ohio 44870
+              </p>
+            </div>
+            <div className='fifty flex-vertical'>
+              <p>
+                <a href='mailto:reservations@thecedarmotel.com'>reservations@thecedarmotel.com</a><br/>
+                <a href='tel:419-871-7044'>(419) 871-7044</a><br/>
+              </p>
+            </div>
           </div>
         </div>
         

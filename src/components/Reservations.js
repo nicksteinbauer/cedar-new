@@ -41,20 +41,22 @@ function Reservations() {
             <ul className="flex-md">
               <li className="forty flex-md justify">
                 <div className="fifty">
-                  <label for="formatted_date_from">arrival date</label>
+                  <label for="formatted_date_from">arrival date
                   <DatePicker dateFormat="MM/dd/yyyy" className="datepicker" name="formatted_date_from" id="formatted_date_from"  selected={startDate} onChange={(date) => setStartDate(date)} />
                   <input type="hidden" name="date_from" id="date_from" value="" />
+                  </label>
                 </div>
                 <div className="fifty">
-                  <label for="formatted_date_to">departure date</label>
+                  <label for="formatted_date_to">departure date
                   <DatePicker dateFormat="MM/dd/yyyy" className="datepicker" name="formatted_date_to" id="formatted_date_to"  selected={endDate} onChange={(date) => setEndDate(date)} />
                   <input type="hidden" name="date_to" id="date_to" value=""/>
+                  </label>
                 </div>
               </li>
                         
               <li className="twenty-five flex-md">
                   <div className="fifty">
-                      <label for="num_adults"># of adults</label>
+                      <label for="num_adults"># of adults
                       <div>
                           <select name="num_adults" id="num_adults">
                           <option value="1">1</option>
@@ -63,9 +65,10 @@ function Reservations() {
                           <option value="4">4</option>
                           </select>
                       </div>
+                      </label>
                   </div>
                   <div className="fifty">
-                      <label for="num_children"># of children</label>
+                      <label for="num_children"># of children
                       <div>
                           <select name="num_children" id="num_children">
                           <option value="0">0</option>
@@ -73,16 +76,19 @@ function Reservations() {
                           <option value="2">2</option>
                           </select>
                       </div>
+                      </label>
                   </div>
               </li>
               <li className="thirty-five flex-md">
                 <div className="fifty">
-                  <label for="access_code">Promo Code</label>
+                  <label for="access_code">Promo Code
                   <input type="text" name="access_code" id="access_code" size="8"/>
+                  </label>
                 </div>
                 <div className="fifty">
-                  <label className="byebye">Submit</label>
+                  <label className="byebye"><span>Submit</span>
                   <div className="submit"><input type="submit" value="check availability"/></div>
+                  </label>
                 </div>
               </li>
             </ul>
