@@ -7,7 +7,7 @@ description: >-
   photos we have. Let's use this photo.
 
 
-  This is a test of the description
+  This is the first one. Maybe we should say something about being on Sandusky Bay, mostly since we have this photo, and it's not bad. I'm baby flexitarian pinterest disrupt before they sold out raw denim, scenester 90's aesthetic kogi hexagon typewriter bushwick trust fund skateboard. Bitters kombucha bespoke etsy wayfarers slow-carb hashtag four loko portland semiotics tattooed dreamcatcher. 
 featuredpost: false
 featuredimage: /img/cedar-motel-bayview-sandusky-ohio-slider-2.jpg
 tags: []
