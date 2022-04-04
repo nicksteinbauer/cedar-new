@@ -28,7 +28,7 @@ const Navbar = class extends React.Component {
       >
         <div className="inside-xxl always-flex justify relative">
           <div className="logo-brand">
-            <Link to="/" className="navbar-item" title="Logo">
+            <Link to="therest" className="navbar-item" title="Logo">
               <img src={logo} alt="Cedar Motel" />
             </Link>
             
@@ -52,7 +52,7 @@ const Navbar = class extends React.Component {
             id="navMenu"
             className={`navbar-menu always-flex ${this.state.navBarActiveClass}`}
           >
-            <div className="navbar-start has-text-centered">
+            <div className="navbar-start center-text always-flex">
 
               <Link activeClass="active" className="pointy-button" to="anchor-reservations" spy={true} smooth={true} duration={1000}>
                 Reservations
@@ -62,8 +62,8 @@ const Navbar = class extends React.Component {
                 About
               </Link>
 
-              <Link activeClass="active" className="pointy-button" to="accommodations" spy={true} smooth={true} duration={1000}>
-                Accomodations
+              <Link activeClass="active" className="pointy-button" to="anchor-accommodations" spy={true} smooth={true} duration={1000}>
+                Accommodations
               </Link>
 
               <Link activeClass="active" className="pointy-button" to="findus" spy={true} smooth={true} duration={1000}>

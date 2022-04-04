@@ -1,0 +1,15 @@
+.footer-inside {
+    padding-top: 50px;
+    margin-bottom: -42px;
+    z-index: 101;
+    position: relative;
+    .above-footer {
+        background: $cedarblue;
+        border-radius: 10px;
+        color: #fff;
+        padding: 20px;
+        p {
+            margin: 0;
+        }
+    }
+}

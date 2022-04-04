@@ -1,4 +1,5 @@
 import React from 'react'
+import MyMapComponent from './MyMapComponent'
 /*
 import { Link } from 'gatsby'
 
@@ -14,7 +15,17 @@ const Footer = class extends React.Component {
   render() {
     return (
       <footer>
-        <h3>This is the footer</h3>
+
+        <div className='footer-inside inside-lg'>
+          <div className='above-footer'>
+
+            <h3>This is the footer</h3>
+
+          </div>
+        </div>
+        
+        <MyMapComponent />
+
       </footer>
     )
   }
