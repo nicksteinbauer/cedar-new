@@ -2,8 +2,12 @@
 templateKey: blog-post
 title: Located on Beautiful Sandusky Bay
 date: 2016-12-17T15:04:10.000Z
-description: These Features should make it on the home page. We can explain this
-  with the photos we have. Let's use this photo.
+description: >-
+  These Features should make it on the home page. We can explain this with the
+  photos we have. Let's use this photo.
+
+
+  This is a test of the description
 featuredpost: false
 featuredimage: /img/cedar-motel-bayview-sandusky-ohio-slider-2.jpg
 tags: []
