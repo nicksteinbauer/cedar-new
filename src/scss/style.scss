@@ -6,6 +6,7 @@ $bodyText: 'Mukta', sans-serif;
 $displayText: 'Marck Script', cursive;
 $cedarblue: #335977;
 $cedargreen: #528783;
+$cedartan: #f0e6d2;
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import "grid.scss";
@@ -24,8 +25,8 @@ body {
 }
 
 h1, h2, h3 {
-    font-weight: 900;
-    text-transform: uppercase;
+    font-weight: 500;
+
     padding: 5px;
    
 }
@@ -33,6 +34,8 @@ h1, h2, h3 {
 h1 {
     color: #fff;
 }
+
+
 
 h1 {
     font-size: 2.5em ;
@@ -42,9 +45,11 @@ h1 {
 }
 
 h2 {
-    font-size: 2.2em ;
+    font-family: $displayText;
+    text-transform: capitalize;
+    font-size: 2.7em ;
     @media screen and (min-width: $screen-md) {
-        font-size: 2.7em ;
+        font-size: 3.6em ;
     }
 }
 

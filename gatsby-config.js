@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Don\'t Divide Sandusky - Vote No on Issue 2',
+    title: 'The Cedar Motel | Sandusky Bay View Waterfront Lodging',
     description:
-      'Issue 2 would unnecessarily change our current cohesive government structure into political fiefdoms.  Our current at-large City government system is working and change simply doesn’t make sense.',
+      'Nestled along the shores in the quiet village of Bay View, The Cedar Motel features newly renovated rooms in a relaxed setting and boasts panoramic views of the neighboring calm waters of Sandusky Bay.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

@@ -25,7 +25,7 @@
             span {
                 font-family: $bodyText;
                 display: block;
-                text-transform: uppercase;
+                //text-transform: uppercase;
                 font-size: .8em;
             }
         }
@@ -43,6 +43,7 @@
 
   .therest {
       padding-top: 85vh;
+      overflow: hidden;
   }
 
   #reservations {
@@ -60,3 +61,58 @@
           }
       }
   }
+
+.linky {
+    position: absolute;
+    left: -9999px;
+    margin-top: -170px;
+}
+
+#about {
+    text-align: right;
+    h1, h2, h3 {
+        padding: 0;
+        line-height: 1;
+    }
+    h2 {
+        color: $cedarblue;
+    }
+    h3 {
+        color: $cedargreen;
+        margin-bottom: 20px;
+        font-size: 1.5em ;
+        @media screen and (min-width: $screen-md) {
+            font-size: 2.0em ;
+        }
+    }
+    .fifty {
+        padding: 10px;
+        @media screen and (min-width: $screen-md) {
+           padding: 0 10px;
+        }
+        
+        opacity: 0;
+        transition: all 1s ease;
+    }
+    .fifty:nth-child(1) {
+        transform: translateX(-200px);
+    }
+    .fifty:nth-child(2) {
+        transform: translateX(200px);
+    }
+    .animateThis {
+        .fifty {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+}
+
+#accomodations {
+    h2 {
+        color: $cedarblue;
+    }
+    .the-logo {
+        width: 100px;
+    }
+}

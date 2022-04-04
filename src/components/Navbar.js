@@ -3,7 +3,7 @@ import React from "react";
 
 import logo from "../img/CEDAR-LOGO-FINAL.svg";
 
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Link } from 'react-scroll'
 
 
 const Navbar = class extends React.Component {
@@ -54,11 +54,11 @@ const Navbar = class extends React.Component {
           >
             <div className="navbar-start has-text-centered">
 
-              <Link activeClass="active" className="pointy-button" to="reservations" spy={true} smooth={true} duration={1000}>
+              <Link activeClass="active" className="pointy-button" to="anchor-reservations" spy={true} smooth={true} duration={1000}>
                 Reservations
               </Link>
 
-              <Link activeClass="active" className="pointy-button" to="about" spy={true} smooth={true} duration={1000}>
+              <Link activeClass="active" className="pointy-button" to="anchor-about" spy={true} smooth={true} duration={1000}>
                 About
               </Link>
 
