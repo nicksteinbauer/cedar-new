@@ -1,14 +1,13 @@
 ---
 templateKey: blog-post
-title: Clean Comfortable Accomodations
+title: Clean Comfortable
 date: 2022-04-04T04:21:58.816Z
-description: Austin green juice taxidermy selfies vaporware lyft PBR&B migas.
-  Gastropub man bun cred, cliche waistcoat organic green juice unicorn af.
-  Vaporware hot chicken four loko coloring book pickled bicycle rights authentic
-  glossier keffiyeh before they sold out microdosing occupy mumblecore. Affogato
-  PBR&B pinterest iPhone, mlkshk flannel copper mug aesthetic hexagon austin.
-  Cray 90's umami tofu.
+description: >
+  The Cedar Motel features newly renovated rooms in a relaxed setting and boasts
+  panoramic views of the neighboring calm waters of Sandusky Bay. Once settled
+  in enjoy the new patio tables on the green, take in the views, enjoy a
+  cocktail or cook up some burgers on grill. 
 featuredpost: true
 featuredimage: /img/cedar-motel-bayview-sandusky-ohio-accomodation-bed.jpg
 ---
-Austin green juice taxidermy selfies vaporware lyft PBR&B migas. Gastropub man bun cred, cliche waistcoat organic green juice unicorn af. Vaporware hot chicken four loko coloring book pickled bicycle rights authentic glossier keffiyeh before they sold out microdosing occupy mumblecore. Affogato PBR&B pinterest iPhone, mlkshk flannel copper mug aesthetic hexagon austin. Cray 90's umami tofu.
+The Cedar Motel features newly renovated rooms in a relaxed setting and boasts panoramic views of the neighboring calm waters of Sandusky Bay. Once settled in enjoy the new patio tables on the green, take in the views, enjoy a cocktail or cook up some burgers on grill.
