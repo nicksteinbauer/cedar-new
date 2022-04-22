@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: The Cedar Motel
-image: /img/dont-divide-sandusky-background.jpg
+image: /img/cedar-motel-bayview-sandusky-ohio-slider-2.jpg
 topimage: /img/the-cedar-motel-main-2022-1.jpg
 description: Stay on the waterfront in Bay View, Ohio
 ---
