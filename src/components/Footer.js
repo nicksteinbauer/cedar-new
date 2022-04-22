@@ -15,7 +15,7 @@ const Footer = class extends React.Component {
   render() {
     return (
       <footer>
-
+        <span id='anchor-findus' className='linky'>Linky</span>
         <div className='footer-inside inside-lg text-center'>
           <div className='above-footer flex-md'>
             <div className='fifty'>

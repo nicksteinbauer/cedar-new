@@ -66,7 +66,7 @@ const Navbar = class extends React.Component {
                 Accommodations
               </Link>
 
-              <Link activeClass="active" className="pointy-button" to="findus" spy={true} smooth={true} duration={1000}>
+              <Link activeClass="active" className="pointy-button" to="anchor-findus" spy={true} smooth={true} duration={1000}>
                 Find Us
               </Link>
               
