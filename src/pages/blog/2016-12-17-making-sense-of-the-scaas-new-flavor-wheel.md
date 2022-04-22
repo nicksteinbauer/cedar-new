@@ -2,14 +2,13 @@
 templateKey: blog-post
 title: Located on Beautiful Sandusky Bay
 date: 2016-12-17T15:04:10.000Z
-description: >-
-  These Features should make it on the home page. We can explain this with the
-  photos we have. Let's use this photo.
-
-
-  This is the first one. Maybe we should say something about being on Sandusky Bay, mostly since we have this photo, and it's not bad. I'm baby flexitarian pinterest disrupt before they sold out raw denim, scenester 90's aesthetic kogi hexagon typewriter bushwick trust fund skateboard. 
+description: We're lucky to be in the heart of everything Shores and Island’s
+  Ohio. In the middle of Sandusky and Port Clinton with the amenities of Bay
+  View, Ohio.  Within walking distance one can find Clemons Boats, Rayz on the
+  Bay, Bay Bell and Grill and Bay View Center.  Make sure to take a walk around
+  Bay View and take in the nature surrounding the area.
 featuredpost: false
 featuredimage: /img/cedar-motel-bayview-sandusky-ohio-slider-2.jpg
 tags: []
 ---
-This is the first one. Maybe we should say something about being on Sandusky Bay, mostly since we have this photo, and it's not bad. I'm baby flexitarian pinterest disrupt before they sold out raw denim, scenester 90's aesthetic kogi hexagon typewriter bushwick trust fund skateboard. Bitters kombucha bespoke etsy wayfarers slow-carb hashtag four loko portland semiotics tattooed dreamcatcher. 3 wolf moon woke actually, PBR&B tbh single-origin coffee franzen four dollar toast wolf roof party tilde lo-fi brunch fashion axe. Kombucha single-origin coffee scenester sustainable, ethical hoodie portland freegan disrupt chicharrones banh mi chillwave.
+We lucky to be in the heart of everything Shores and Island’s Ohio. In the middle of Sandusky and Port Clinton with the amenities of Bay View, Ohio.  Within walking distance one can find Clemons Boats, Rayz on the Bay, Bay Bell and Grill and Bay View Center.  Make sure to take a walk around Bay View and take in the nature surrounding the area.
