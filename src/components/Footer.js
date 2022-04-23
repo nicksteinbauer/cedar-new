@@ -1,5 +1,5 @@
 import React from 'react'
-import MyMapComponent from './MyMapComponent'
+import MapWithAMakredInfoWindow from './MyMapComponentMarker'
 /*
 import { Link } from 'gatsby'
 
@@ -33,7 +33,15 @@ const Footer = class extends React.Component {
           </div>
         </div>
         
-        <MyMapComponent />
+        
+
+
+      <MapWithAMakredInfoWindow
+        googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyDz85GtAL9QJwco83UH0jUx8lbeS_UNJuk&v=3.exp&libraries=geometry,drawing,places"
+        loadingElement={<div style={{ height: `100%` }} />}
+        containerElement={<div style={{ height: `600px` }} />}
+        mapElement={<div style={{ height: `100%` }} />}
+      />
 
       </footer>
     )
