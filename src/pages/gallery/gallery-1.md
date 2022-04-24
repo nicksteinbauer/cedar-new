@@ -1,5 +1,6 @@
 ---
 templateKey: blog-post-gallery
+featuredgallery: true
 title: Gallery 1
 date: 2022-04-23T16:21:04.801Z
 featuredimage: /img/thecedarmotelgallery_1.jpg
