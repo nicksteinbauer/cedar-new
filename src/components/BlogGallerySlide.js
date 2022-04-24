@@ -20,9 +20,9 @@ class BlogGallerySlide extends React.Component {
       };
 
       return (
-        <div className="project-pre-loop">
+        <div className="project-pre-loop inside-xl">
             <Slider {...settings}>
-            {posts &&
+              {posts &&
                 posts.map(({ node: post }) => (
                 <div className="pro-loop" key={post.id}>
                     <article
@@ -44,21 +44,19 @@ class BlogGallerySlide extends React.Component {
                             </div>
                         </div>
                         ) : null}
-                        
-                
-                        
+
                     </div>
-                </article>
+                  </article>
                 </div>
                 
-            ))}
+              ))}
             </Slider>
         </div>
       )
   }
 }
 
-BlogProjectsSlide.propTypes = {
+BlogGallerySlide.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -69,7 +67,7 @@ BlogProjectsSlide.propTypes = {
 export default () => (
   <StaticQuery
     query={graphql`
-    query BlogProjectsSlideQuery {
+    query BlogGallerySlideQuery {
         allMarkdownRemark(
             sort: { order: DESC, fields: [frontmatter___date] }
           ) {

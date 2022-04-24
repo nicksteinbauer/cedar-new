@@ -94,3 +94,20 @@
         }
     }
 }
+
+
+.slick-next::before, .slick-prev::before {
+
+    color: #000;
+}
+
+.slick-next, .slick-prev {
+
+}
+
+.slick-prev {
+    left: 10px;
+}
+.slick-next {
+    right: 10px;
+}

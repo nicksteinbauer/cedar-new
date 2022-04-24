@@ -11,6 +11,7 @@ import logo from "../img/CEDAR-LOGO-FINAL.svg";
 //import { Modal, ModalHeader, ModalBody, Button } from 'reactstrap';
 //import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
+import BlogGallerySlide from '../components/BlogGallerySlide'
 import HomeVideo from "../img/homevideo-sm.mp4"
 
 export const IndexPageTemplate = ({ image, topimage, title, description, content, contentComponent }) => {
@@ -90,6 +91,23 @@ export const IndexPageTemplate = ({ image, topimage, title, description, content
           <div className='blog-parent'>
 
             <BlogRoll />
+
+
+          </div>
+
+        </div>
+
+        <div id='gallery'>
+          <span id='anchor-gallery' className='linky'>Linky</span>
+
+          <div className='text-center inside-xs'>
+            <img className='the-logo' src={logo} alt="Cedar Motel" />
+            <h2>Gallery</h2>
+          </div>
+          
+          <div className='blog-parent'>
+
+            <BlogGallerySlide />
 
 
           </div>
