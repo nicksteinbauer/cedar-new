@@ -66,6 +66,10 @@ const Navbar = class extends React.Component {
                 Accommodations
               </Link>
 
+              <Link activeClass="active" className="pointy-button" to="anchor-gallery" spy={true} smooth={true} duration={1000}>
+                Gallery
+              </Link>
+
               <Link activeClass="active" className="pointy-button" to="anchor-findus" spy={true} smooth={true} duration={1000}>
                 Find Us
               </Link>
@@ -76,8 +80,8 @@ const Navbar = class extends React.Component {
           </div>
 
           <div className="social">
-            <a className="facebook" href="https://facebook.com"><span>Facebook</span></a>
-            <a className="instagram" href="https://instagram.com"><span>Instagram</span></a>
+            <a className="facebook" href="https://www.facebook.com/thecedarmotel"><span>Facebook</span></a>
+            {/*<a className="instagram" href="https://instagram.com"><span>Instagram</span></a>*/}
           </div>
 
           

@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql, StaticQuery } from 'gatsby'
+import { graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 
 import Slider from "react-slick"
@@ -69,7 +69,7 @@ export default () => (
     query={graphql`
     query BlogGallerySlideQuery {
         allMarkdownRemark(
-            sort: { order: DESC, fields: [frontmatter___date] }
+            sort: {order: ASC, fields: [frontmatter___date]}, filter: {frontmatter: {featuredgallery: {eq: true}}}
           ) {
             edges {
               node {

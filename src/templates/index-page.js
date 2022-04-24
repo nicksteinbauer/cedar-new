@@ -83,7 +83,7 @@ export const IndexPageTemplate = ({ image, topimage, title, description, content
         <div id='accommodations'>
           <span id='anchor-accommodations' className='linky'>Linky</span>
 
-          <div className='text-center inside-xs'>
+          <div className='text-center inside-xs title-fix'>
             <img className='the-logo' src={logo} alt="Cedar Motel" />
             <h2>Our Accommodations</h2>
           </div>
@@ -92,7 +92,6 @@ export const IndexPageTemplate = ({ image, topimage, title, description, content
 
             <BlogRoll />
 
-
           </div>
 
         </div>
@@ -100,7 +99,7 @@ export const IndexPageTemplate = ({ image, topimage, title, description, content
         <div id='gallery'>
           <span id='anchor-gallery' className='linky'>Linky</span>
 
-          <div className='text-center inside-xs'>
+          <div className='text-center inside-xs title-fix'>
             <img className='the-logo' src={logo} alt="Cedar Motel" />
             <h2>Gallery</h2>
           </div>
@@ -108,7 +107,6 @@ export const IndexPageTemplate = ({ image, topimage, title, description, content
           <div className='blog-parent'>
 
             <BlogGallerySlide />
-
 
           </div>
 

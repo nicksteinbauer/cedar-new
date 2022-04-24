@@ -102,12 +102,22 @@
 }
 
 .slick-next, .slick-prev {
+    height: 30px;
+    width: 30px;
+}
 
+.slick-next::before, .slick-prev::before {
+    font-size: 30px;
+    color: $cedargreen;
 }
 
 .slick-prev {
-    left: 10px;
+    left: -33px;
 }
 .slick-next {
-    right: 10px;
+    right: -33px;
+}
+
+.project-pre-loop {
+    padding: 0 40px;
 }
