@@ -84,7 +84,10 @@
         //padding: 2px 5px;
         //display: block;
         
-        padding: 12px 10px;
+        padding: 4px 10px;
+        @media screen and (min-width: $screen-md) {
+            padding: 12px 10px;
+        }
         
         color: #fff;
         text-decoration: none;
@@ -92,18 +95,7 @@
         transition: background-color .3s ease;
         background-color: rgba($color: #000, $alpha: 0);
     }
-    a:nth-child(1), a:nth-child(2) {
-        padding: 12px 10px 6px;
-        @media screen and (min-width: $screen-md) {
-            padding: 12px 10px;
-        }
-    }
-    a:nth-child(3), a:nth-child(4) {
-        padding: 6px 10px 12px;
-        @media screen and (min-width: $screen-md) {
-            padding: 12px 10px;
-        }
-    }
+    
     a:hover {
         background-color: rgba($color: #000, $alpha: .5);
     }
