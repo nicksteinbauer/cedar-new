@@ -69,7 +69,7 @@ export default () => (
     query={graphql`
     query BlogGallerySlideQuery {
         allMarkdownRemark(
-            sort: {order: ASC, fields: [frontmatter___date]}, filter: {frontmatter: {featuredgallery: {eq: true}}}
+            sort: {order: ASC, fields: [frontmatter___date]}, filter: {frontmatter: {featuredpost: {eq: true}}}
           ) {
             edges {
               node {
