@@ -20,7 +20,7 @@ class BlogGallerySlide extends React.Component {
       };
 
       return (
-        <div className="project-pre-loop inside-xl">
+        <div className="project-pre-loop inside-lg">
             <Slider {...settings}>
               {posts &&
                 posts.map(({ node: post }) => (

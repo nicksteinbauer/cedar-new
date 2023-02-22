@@ -9,7 +9,7 @@ import "react-datepicker/dist/react-datepicker.css";
     setup_parameters =
       {
           "hotel_id":"2489",				// required - your WebRezPro hotel id must be entered
-          "date_format":"MM/dd/yyyy", 	// optional - default is 'DD M dd, yy'
+          "date_format":"D M dd, yy", 	// optional - default is 'DD M dd, yy'
           "default_days_in_advance":"0",	// optional - default is 0 days in advance,
           "flag_turnoff_autoload_date":"1" // 0 = arrival and departure dates automatically loaded, 1 = not loaded, default is 0
       };
@@ -29,27 +29,24 @@ function Reservations() {
         <div className="reservations-inner"
           dangerouslySetInnerHTML={{__html: reservation}}
         />
-          <form id="widget_link" action="https://secure.webrez.com/hotel/2489/?">
+          <form id="widget_link" action="https://secure.webrez.com/hotel/2489/?" method='get' target='_blank'>
             <input type="hidden" name="table" value=""/>
             <input type="hidden" name="hotel_id" value=""/>
             <input type="hidden" name="listing_id" value=""/>
             <input type="hidden" name="mode" value=""/>
             <input type="hidden" name="command" value=""/>
-            <input type="hidden" name="nextcommand" value="" />
-
-            
+            <input type="hidden" name="nextcommand" value="roomsearch" />
+              
             <ul className="flex-md">
               <li className="forty flex-md justify">
                 <div className="fifty">
-                  <label for="formatted_date_from">arrival date
-                  <DatePicker dateFormat="MM/dd/yyyy" className="datepicker" name="formatted_date_from" id="formatted_date_from"  selected={startDate} onChange={(date) => setStartDate(date)} />
-                  <input type="hidden" name="date_from" id="date_from" value="" />
+                  <label htmlFor="formatted_date_from">arrival date
+                  <DatePicker className="datepicker" name="date_from" id="date_from"  selected={startDate} onChange={(date) => setStartDate(date)} />
                   </label>
                 </div>
                 <div className="fifty">
-                  <label for="formatted_date_to">departure date
-                  <DatePicker dateFormat="MM/dd/yyyy" className="datepicker" name="formatted_date_to" id="formatted_date_to"  selected={endDate} onChange={(date) => setEndDate(date)} />
-                  <input type="hidden" name="date_to" id="date_to" value=""/>
+                  <label htmlFor="formatted_date_to">departure date
+                  <DatePicker className="datepicker" name="date_to" id="date_to" selected={endDate} onChange={(date) => setEndDate(date)} />
                   </label>
                 </div>
               </li>
